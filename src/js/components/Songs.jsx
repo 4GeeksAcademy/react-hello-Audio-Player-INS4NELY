@@ -18,7 +18,7 @@ const SongsPlayer = () => {
             const response = await fetch('https://playground.4geeks.com/sound/songs', {
                 method: 'GET',
                 headers: {
-                    'Content-Type': 'song/mp3'
+                    'Content-Type': 'audio/mpeg'
                 }
             })
 
