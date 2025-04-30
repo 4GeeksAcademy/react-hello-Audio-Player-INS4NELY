@@ -9,3 +9,61 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.boxStyle {
+    width: 50%;
+    background-color: #1b191f;
+    border-radius: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.songStyle {
+    width: 100%;
+    height: 90lvh;
+    padding: 0;
+    overflow: auto;
+    border-radius: 1.5rem;
+}
+
+.songStyle::-webkit-scrollbar {
+    display: none;
+  }
+
+.listStyle {
+    background-color: #1b191f;
+    color: white;
+    width: 100%;
+    height: 5lvh;
+}
+
+.listStyle:hover {
+    background-color: #0d0d0f;
+    border-radius: 1rem;
+}
+
+.playerStyle {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+    background-color: #1ed760;
+    border-radius: 2rem;
+}
+
+.btnStyle {
+    background: none;
+    border: none;
+}
+
+.liHov {
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+
+.liHov:hover {
+    background-color: #5ae28a;
+}
+
+.liChange {
+    background-color: #5ae28a;
+}
